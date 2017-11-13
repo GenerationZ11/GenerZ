@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">GenerationZ</string>
+    <string name="app_name">LvivQuest</string>
+    <string name="Liubomyr">Liubomyr</string>
+    <string name="Max">Max</string>
+    <string name="Sviatik">Sviatik</string>
+    <string name="Ulia">Ulia</string>
+    <string name="Tanya">Tanya</string>
+    
 </resources>
