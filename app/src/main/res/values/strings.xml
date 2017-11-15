@@ -1,3 +1,17 @@
 <resources>
+<<<<<<< remotes/origin/Sviatoslav
     <string name="app_name">GenerationZ</string>
+=======
+    <string name="app_name">LvivQuest</string>
+    <string name="Liubomyr">Liubomyr</string>
+    <string name="Max">Max</string>
+    <string name="Sviatik">Sviatik</string>
+    <string name="Ulia">Ulia</string>
+    <string name="Tanya">Tanya</string>
+    <string name="provider_gps">GPS</string>
+    <string name="provider_network">Network</string>
+    <string name="location_settings">Location settings</string>
+    <string name="get_current_location_and_city_name">Get Current Location and City Name</string>
+    <string name="get_location">Get Location</string>
+>>>>>>> local
 </resources>

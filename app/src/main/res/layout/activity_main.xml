@@ -25,12 +25,27 @@
         android:text="Max" />
 
     <Button
+<<<<<<< remotes/origin/Sviatoslav
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/button2"
         android:layout_below="@+id/button2"
         android:text="Sviatik" />
+=======
+        android:id="@+id/SV"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/Ulia"
+        android:layout_alignStart="@+id/Tanya"
+        android:layout_marginBottom="30dp"
+
+        android:fontFamily="serif"
+        android:text="@string/Sviatik"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        tools:text="@string/Sviatik" />
+>>>>>>> local
 
     <Button
         android:id="@+id/button4"
