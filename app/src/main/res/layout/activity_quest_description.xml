@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="iot.generationZ.lvivQuest.QuestDescription">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:id="@+id/infa_about_quest"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+
+            android:layout_above="@+id/descr"
+            android:layout_alignStart="@+id/descr"
+            android:text="TextView"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="208dp" />
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="153dp"
+            android:layout_height="44dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="48dp"
+            android:layout_marginEnd="29dp"
+            android:layout_toStartOf="@+id/map"
+            android:text="Confirm"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="441dp" />
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="77dp"
+            android:layout_height="44dp"
+            android:layout_alignBaseline="@+id/confirm"
+            android:layout_alignBottom="@+id/confirm"
+            android:layout_alignEnd="@+id/infa_about_quest"
+            android:layout_marginEnd="21dp"
+            android:text="Map"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/descr"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_above="@+id/map"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="44dp"
+            android:text="TextView" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
