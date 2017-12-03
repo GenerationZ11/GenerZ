@@ -12,13 +12,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         Button Tanya = (Button) findViewById(R.id.Tanya);
         Tanya.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,Camera.class));
+                openCamera();
             }
         });
+    }
+    public void openCamera() {
+    Intent intent = new Intent(this, Camera.class);
+    startActivity(intent);
     }
 }

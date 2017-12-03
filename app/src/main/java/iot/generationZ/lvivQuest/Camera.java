@@ -16,7 +16,7 @@ public class Camera extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_camera);
 
         Button btnCamera = (Button) findViewById(R.id.btnCamera);
         imageView = (ImageView) findViewById(R.id.imageView);
